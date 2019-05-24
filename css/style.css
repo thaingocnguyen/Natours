@@ -118,6 +118,8 @@ body {
 .btn--white {
   background-color: #fff;
   color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
 
 .btn::after {
   content: "";
@@ -130,8 +132,6 @@ body {
   left: 0;
   z-index: -1;
   transition: all .4s; }
-  .btn::after::after {
-    background-color: #fff; }
 
 .btn--animated {
   animation: moveInBottom .5s ease-out .75s;
